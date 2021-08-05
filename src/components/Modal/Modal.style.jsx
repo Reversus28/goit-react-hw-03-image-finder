@@ -14,10 +14,13 @@ const Overlay = styled.div`
 `
 
 const ModalWrapper = styled.div`
-  max-width: calc(100vw - 48px);
-  max-height: calc(100vh - 24px);
+  max-width: calc(100vw - 100px);
+  max-height: calc(100vh - 30px);
 `
 
-const Img = styled.img``
+const Img = styled.img`
+  width: 700px;
+  height: 500px;
+`
 
 export { Overlay, ModalWrapper, Img }
